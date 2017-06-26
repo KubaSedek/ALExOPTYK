@@ -20,4 +20,9 @@ $(function() {
             scrollTop: $("#kontakt").offset().top
         }, 1500);
     });
+    $("#return").click(function() {
+        $('html, body').animate({
+            scrollTop: $("header").offset().top
+        }, 1500);
+    });
 });

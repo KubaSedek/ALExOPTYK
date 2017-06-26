@@ -59,7 +59,7 @@ nav {
 .menu {
     display: inline;
     list-style-type: none;
-    cursor: alias;
+    cursor: crosshair;
 }
 
 .menu > a {
@@ -143,6 +143,30 @@ nav {
     width: 100%;
 }
 
+#return {
+    width: 45px;
+    height: 45px;
+    position: fixed;
+    background-color: black;
+    border-radius: 5px;
+    color: white;
+    right: 50px;
+    bottom: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-size: 18px;
+    color: rgb(227, 227, 227);
+    font-weight: bold;
+}
+
+#return:hover {
+    background-color: rgb(254, 69, 0);
+    color: rgb(65, 65, 65);
+    transition: 0.5s;
+    cursor: crosshair;
+}
 /*OFERTA*/
 
 #oferta {
